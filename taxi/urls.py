@@ -1,8 +1,7 @@
 from django.urls import path
 
-from .views import (
+from taxi.views import (
     index,
-    add_driver,
     CarListView,
     CarDetailView,
     CarCreateView,
